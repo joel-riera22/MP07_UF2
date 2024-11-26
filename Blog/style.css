@@ -84,24 +84,3 @@ input {
     background-color: #bbbbbb;
     border-radius: 5px;
 }
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.lesmevesdades {
-    background-color: #FFA500;
-}
-
-.entrades {
-    background-color: #21B921;
-}
-
-.categories {
-    background-color: #21B921;
-}
-
-.logout {
-    background-color: #007EE5;
-}
