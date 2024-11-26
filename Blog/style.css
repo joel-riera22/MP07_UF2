@@ -1,0 +1,107 @@
+body {
+    background-image: url("img/fons-pagina-principal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    margin: 15px 0 0 10px;
+}
+
+h3 {
+    margin: 15px 0 0 20px;
+}
+
+#pagina_principal {
+    height: 1000px;
+    position: relative;
+}
+
+#caixa_principal {
+    height: 650px;
+    width: 1150px;
+    margin-left: 170px;
+    background-color: white;
+    border: 3px solid #EBEBEB;
+    border-radius: 5px;
+}
+
+#side-bar {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 430px;
+}
+
+.formulari {
+    padding: 15px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+input {
+    width: 100%;
+}
+
+.boto_form {
+    width: 20%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #516879;
+    color: white;
+    border: 1px solid #478FA4;
+    border-radius: 3px;
+}
+
+.menu {
+    background-color: #EAEAEA;
+    margin: 40px 0 25px 0;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ABB6BD;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #bbbbbb;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.lesmevesdades {
+    background-color: #FFA500;
+}
+
+.entrades {
+    background-color: #21B921;
+}
+
+.categories {
+    background-color: #21B921;
+}
+
+.logout {
+    background-color: #007EE5;
+}
